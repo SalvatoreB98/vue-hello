@@ -3,7 +3,7 @@ window.addEventListener("load", function (event) {
         {
             el:'#vueContainer',
             data: {
-                message:  "TITOLO H1",
+                message:  "MESSAGE FROM VUE",
                 classes: "big-font",
                 img: 'retro.jpg',
 
