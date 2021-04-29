@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <main id="vueContainer">
-        <h1 v-model= class="">{{message}}</h1>
+    <main id="vueContainer" class="general">
+        <h1 v-bind:class="classes"> {{ message }} </h1>
+        <div> <img v-bind:src="img" alt=""></div>
     </main>
     <script src="script.js"></script>
 </body>
